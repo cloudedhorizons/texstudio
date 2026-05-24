@@ -20,7 +20,7 @@
 \arcminute#/%unit
 \arcsecond#/%unit
 \as#*/%unit
-\astronomicalunit
+\astronomicalunit#/%unit
 \atto#/%unit
 \becquerel#/%unit
 \bel#/%unit
@@ -137,7 +137,7 @@
 \Mohm#*/%unit
 \mohm#*/%unit
 \mol#*/%unit
-\mole
+\mole#/%unit
 \mp#*/%unit
 \MPa#*/%unit
 \ms#*/%unit
@@ -195,7 +195,7 @@
 \quecto#/%unit
 \quetta#/%unit
 \radian#/%unit
-\raiseto{%<power%>}
+\raiseto{%<power%>}#/%unit
 \ronna#/%unit
 \ronto#/%unit
 \s#*/%unit
@@ -242,7 +242,7 @@
 \yotta#/%unit
 \zebi#/%unit
 \zepto#/%unit
-\zetta
+\zetta#/%unit
 
 # deprecated
 \angstrom#S
