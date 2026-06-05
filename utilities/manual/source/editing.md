@@ -542,7 +542,7 @@ The abbreviation may start with a backslash (`\`) allowing autostart of the comp
 TeXstudio remembers used mathematical expressions (user constructs) which are likely reused and provides them in the completer.
 These constructs are of the form
 1) `\symbol_`*something*
-2) `\mathcmd{`*something`}`
+2) `\mathcmd{`*something*`}`
 
 This feature can be disabled, see [configuration](configuration.md#configuring-the-autocompletion).
 
@@ -669,7 +669,7 @@ The drop-down menu allows searching within a "Project", i.e. all files belonging
 
 The option "Files on disk" searches all the text in TeX files in the same folder as the current document. The folder and the file filter can be changed.
 
-In the list of search results, a double-click on a match jumps to the location in the file. The matches can be selected/deselected to limit the results which are replaced by the replacement text by pressing "Replace all".
+In the list of search results, a double-click on a match jumps to the location in the file. Hovering over an entry previews the applied replacements. The matches can be selected/deselected to limit the results which are replaced by the replacement text by pressing "Replace all".
 
 ![extended search pane](images/extendedSearch.webp)
 
